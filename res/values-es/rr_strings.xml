@@ -28,7 +28,7 @@
     <string name="enabled">Activado</string>
     <string name="choose_app">Selecciona aplicación</string>
     <string name="help">Ayuda</string>
-    <string name="reset_message">¿Restablecer a valores predeterminados?</string>
+    <string name="reset_message">¿Restablecer todas las entradas a sus valores por defecto?</string>
     <string name="attention">Atención</string>
     <string name="restart_systemui">Reiniciar Interfaz de Usuario</string>
     <!-- About RR -->
@@ -50,7 +50,7 @@
     <string name="media_art_title">Carátula de música</string>
     <string name="media_art_summary">Activar carátula multimedia en la pantalla de bloqueo</string>
     <!-- Battery Styles -->
-    <string name="battery_style_title">Estilo de ícono del botón</string>
+    <string name="battery_style_title">Estilo de icono de batería</string>
     <string name="battery_style_port">Vertical</string>
     <string name="battery_style_land">Horizontal</string>
     <string name="battery_style_circle">Círculo</string>
@@ -60,7 +60,7 @@
     <string name="battery_style_square">Cuadrado</string>
     <string name="battery_style_text">Texto</string>
     <string name="battery_style_hidden">Oculto</string>
-    <string name="battery_style_category">Estilo del icono de batería</string>
+    <string name="battery_style_category">Estilo de la batería</string>
     <string name="battery_bar_category">Barra de batería</string>
     <string name="show_battery_percent_title">Mostrar porcentaje de batería</string>
     <string name="battery_style_category_title">Nivel de batería</string>
@@ -254,10 +254,7 @@ https://plus.google.com/communities/109352646351468373340</string>
     <string name="rr_toast_title">Notificación emergente</string>
     <string name="rr_headsup_cat">Notificaciones flotantes</string>
     <string name="rr_nav_title">Navegación</string>
-    <string name="recents_type_title">Tipo de recientes</string>
-    <string name="recents_stock">AOSP Por defecto</string>
     <string name="recents_omniswitch">OmniSwitch</string>
-    <string name="recents_grid">Cuadricula</string>
     <string name="recents_slim">Slim</string>
     <string name="rr_notif_settings_title">Notificaciones</string>
     <!-- Interface -->
@@ -388,26 +385,10 @@ https://plus.google.com/communities/109352646351468373340</string>
     <string name="qs_tile_title_visibility_title">Mostrar texto de los iconos</string>
     <string name="qs_tile_title_visibility_summary">Mostrar título de icono si está activado</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">Habilitar</string>
-    <string name="daylight_header_pack_title">Colección de imágenes de cabecera</string>
-    <string name="status_bar_custom_header_shadow_title">Sombra de la imagen de cabecera</string>
-    <string name="status_bar_custom_header_shadow_summary">Para una mejor visibilidad en imágenes con alto brillo</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">Imagen estática</string>
-    <string name="daylight_header_provider_title">Colección de imágenes</string>
-    <string name="custom_header_provider_title">Proveedor de encabezado</string>
     <string name="custom_header_browse_title">Ver encabezados instalados</string>
     <string name="custom_header_browse_summary">Pulse cualquier imagen para usarla en modo estático</string>
     <string name="custom_header_browse_summary_new">Buscar todas las imágenes de cabecera disponibles</string>
-    <string name="custom_header_pick_title">Seleccione la imagen de cabecera</string>
-    <string name="custom_header_pick_summary">Seleccione una imagen para usarla en modo estático</string>
-    <string name="style_enabled_summary">La imagen personalizada de cabecera está activada</string>
-    <string name="style_disabled_summary">La imagen personalizada de cabecera está desactivada</string>
-    <string name="header_provider_disabled">Desactivado</string>
-    <string name="custom_header_title">Imagen personalizada de cabecera</string>
-    <string name="file_header_select_title">Seleccionar imagen</string>
-    <string name="file_header_select_summary">Seleccionar imagen personalizada</string>
-    <string name="file_header_provider_title">Imagen personalizada</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Despliegue inteligente</string>
     <string name="smart_pulldown_off">Desactivado</string>
@@ -1601,16 +1582,6 @@ puede instalar nuevos paquetes de iconos desde la play store buscando \"Chronus 
     <string name="recents_full_screen_date_title">Mostrar fecha</string>
     <string name="recents_full_screen_date_summary">Muestra la fecha en la parte superior en modo inmersivo</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">Botón de borrar todo</string>
-    <string name="show_clear_all_recents_button_summary">Mostrar botón de limpieza de aplicaciones recientes</string>
-    <string name="recents_clear_all_location_title">Posición de boton de borrar todo</string>
-    <string name="recents_clear_all_location_top_right">Arriba a la derecha</string>
-    <string name="recents_clear_all_location_top_left">Arriba a la Izquierda</string>
-    <string name="recents_clear_all_location_top_center">Arriba en el centro</string>
-    <string name="recents_clear_all_location_bottom_right">Abajo a la derecha</string>
-    <string name="recents_clear_all_location_bottom_left">Abajo a la izquierda</string>
-    <string name="recents_clear_all_location_bottom_center">Abajo en el centro</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">Borrarlo todo</string>
     <string name="clear_recents_style">Estilo del botón</string>
     <string name="fab_button_color">Limpiar todo el color de fondo</string>
@@ -2084,9 +2055,65 @@ puede instalar nuevos paquetes de iconos desde la play store buscando \"Chronus 
     <string name="doze_on_charge_title">Mostrar al cargar</string>
     <string name="doze_on_charge_summary">Activar la pantalla al cargar</string>
     <!-- Rounded corners -->
-    <string name="corners_category">Esquinas</string>
+    <string name="corners_category">Bordes de la pantalla</string>
     <string name="corner_radius">Radio de la esquina redondeada</string>
     <string name="content_padding">Relleno del contenido de las esquinas</string>
     <string name="corner_fwvals">Usar los valores del sistema</string>
     <string name="corner_fwvals_summary">Util si el teléfono tiene bordes curvos</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Estilo de recientes</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">Recientes de AOSP</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Botón de borrar todo</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar botón de limpieza de aplicaciones recientes</string>
+    <string name="recents_clear_all_location_title">Posición de boton de borrar todo</string>
+    <string name="recents_clear_all_location_top_right">Arriba a la derecha</string>
+    <string name="recents_clear_all_location_top_left">Arriba a la Izquierda</string>
+    <string name="recents_clear_all_location_top_center">Arriba en el centro</string>
+    <string name="recents_clear_all_location_bottom_right">Abajo a la derecha</string>
+    <string name="recents_clear_all_location_bottom_left">Abajo a la izquierda</string>
+    <string name="recents_clear_all_location_bottom_center">Abajo en el centro</string>
+    <string name="oreo_recents_category">Recientes Oreo</string>
+    <string name="recents_show_membar_title">Barra de memoria</string>
+    <string name="recents_show_membar_summary">Mostrar una barra con la memoria disponible del dispositivo</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Estilo de Recientes Oreo</string>
+    <string name="recents_stock">Por defecto</string>
+    <string name="recents_grid">Cuadricula</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">Mostrar configuración de recorte</string>
+    <string name="cutout_main_summary">Realmente cortan esquinas con este</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">Estilo de recorte</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Inmersivo</string>
+    <string name="display_cutout_style_hide">Ocultar</string>
+    <string name="stock_statusbar_in_hide">Altura de barra de estado por defecto</string>
+    <string name="stock_statusbar_in_hide_summary">Usar altura de barra de estado por defecto en ocultar</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">Cabecera de ajustes rapidos</string>
+    <string name="statusbar_header_category_summary">Personalizar cabecera del Panel QS</string>
+    <string name="status_bar_custom_header_title">Habilitar</string>
+    <string name="daylight_header_pack_title">Colección de imágenes de cabecera</string>
+    <string name="status_bar_custom_header_shadow_title">Sombra de la imagen de cabecera</string>
+    <string name="status_bar_custom_header_shadow_summary">Para una mejor visibilidad en imágenes con alto brillo</string>
+    <string name="static_header_provider_title">Imagen estática</string>
+    <string name="daylight_header_provider_title">Colección de imágenes</string>
+    <string name="custom_header_provider_title">Proveedor de encabezado</string>
+    <string name="custom_header_pick_title">Seleccione la imagen de cabecera</string>
+    <string name="custom_header_pick_summary">Seleccionar una imagen remota o local</string>
+    <string name="style_enabled_summary">La imagen personalizada de cabecera está activada</string>
+    <string name="style_disabled_summary">La imagen personalizada de cabecera está desactivada</string>
+    <string name="header_provider_disabled">Desactivado</string>
+    <string name="custom_header_title">Imagen personalizada de cabecera</string>
+    <string name="file_header_select_title">Seleccionar una imagen local</string>
+    <string name="file_header_select_summary">Seleccionar una imagen desde almacenamiento</string>
+    <string name="file_header_provider_title">Imagen individual</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Ocultar la barra de estado</string>
+    <string name="hide_lockscreen_status_bar_summary">Toque la barra de estado para cambiar la visibilidad</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Vincular tono y volumen de notificaciones</string>
 </resources>

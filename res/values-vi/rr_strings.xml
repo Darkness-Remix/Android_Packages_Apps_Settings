@@ -253,10 +253,7 @@
     <string name="rr_toast_title">Thông báo nhanh</string>
     <string name="rr_headsup_cat">Thông báo nổi</string>
     <string name="rr_nav_title">Điều hướng</string>
-    <string name="recents_type_title">Loại đa nhiệm</string>
-    <string name="recents_stock">AOSP Gốc</string>
     <string name="recents_omniswitch">Kiểu Omni</string>
-    <string name="recents_grid">Dạng lưới</string>
     <string name="recents_slim">Mảnh</string>
     <string name="rr_notif_settings_title">Thông báo</string>
     <!-- Interface -->
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">Hiển thị ô tiêu đề</string>
     <string name="qs_tile_title_visibility_summary">Hiển thị ô tiêu đề bên dưới khi được chọn</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">Kích hoạt</string>
-    <string name="daylight_header_pack_title">Tiêu đề hình ảnh bộ sưu tập</string>
-    <string name="status_bar_custom_header_shadow_title">Đổ bóng ảnh trong bộ sưu tập</string>
-    <string name="status_bar_custom_header_shadow_summary">Cho khả năng nhìn thấy tốt hơn với các hình ảnh sáng</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">Ảnh tĩnh</string>
-    <string name="daylight_header_provider_title">Bộ sưu tập ảnh</string>
-    <string name="custom_header_provider_title">Nhà cung cấp</string>
     <string name="custom_header_browse_title">Quét các mục có sẵn</string>
     <string name="custom_header_browse_summary">Nhấp vào bất kỳ hình ảnh nào để sử dụng chế độ tĩnh</string>
     <string name="custom_header_browse_summary_new">Duyệt qua tất cả các bộ sưu tập có tiêu đề</string>
-    <string name="custom_header_pick_title">Chọn tiêu đề hình ảnh</string>
-    <string name="custom_header_pick_summary">Chọn một hình ảnh để sử dụng cho chế độ tĩnh</string>
-    <string name="style_enabled_summary">Tùy chỉnh hình ảnh đầu mục đang bật</string>
-    <string name="style_disabled_summary">Tùy chỉnh hình ảnh đầu mục đang TẮT</string>
-    <string name="header_provider_disabled">Tắt</string>
-    <string name="custom_header_title">Tùy chỉnh hình ảnh đầu mục</string>
-    <string name="file_header_select_title">Chọn ảnh</string>
-    <string name="file_header_select_summary">Chọn ảnh tùy chỉnh</string>
-    <string name="file_header_provider_title">Hình ảnh tùy chỉnh</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Kéo xuống thông minh</string>
     <string name="smart_pulldown_off">Tắt</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">Hiển thị ngày</string>
     <string name="recents_full_screen_date_summary">Hiện ngày ở trên cùng khi toàn màn hình</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">Nút xóa tất cả</string>
-    <string name="show_clear_all_recents_button_summary">Hiện nút xóa tất cả</string>
-    <string name="recents_clear_all_location_title">Vị trí nút xoá tất cả</string>
-    <string name="recents_clear_all_location_top_right">Phía trên bên phải</string>
-    <string name="recents_clear_all_location_top_left">Phía trên bên trái</string>
-    <string name="recents_clear_all_location_top_center">Chính giữa phía trên</string>
-    <string name="recents_clear_all_location_bottom_right">Phía dưới bên phải</string>
-    <string name="recents_clear_all_location_bottom_left">Phía dưới bên trái</string>
-    <string name="recents_clear_all_location_bottom_center">Phía dưới ở giữa</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">Xóa tất cả</string>
     <string name="clear_recents_style">Tùy chỉnh nút</string>
     <string name="fab_button_color">Màu nền xoá tất cả</string>
@@ -2082,4 +2053,65 @@
     <string name="doze_on_charge_title">Hiển thị khi sạc</string>
     <string name="doze_on_charge_summary">Bật màn hình khi sạc</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Bo góc màn hình</string>
+    <string name="corner_radius">Bán kính bo góc</string>
+    <string name="content_padding">Góc đệm nội dung</string>
+    <string name="corner_fwvals">Sử dụng các giá trị khung</string>
+    <string name="corner_fwvals_summary">Hữu ích nếu thiết bị thực sự có các góc tròn</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Kiểu màn hình đa nhiệm</string>
+    <string name="recents_pie">Android 9.0 (Pie)</string>
+    <string name="recents_oreo">Android 8.1.0 (Oreo)</string>
+    <string name="aosp_recents_category">Giao diện đa nhiệm AOSP</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Nút xóa tất cả</string>
+    <string name="show_clear_all_recents_button_summary">Hiện nút xóa tất cả</string>
+    <string name="recents_clear_all_location_title">Vị trí nút xoá tất cả</string>
+    <string name="recents_clear_all_location_top_right">Phía trên bên phải</string>
+    <string name="recents_clear_all_location_top_left">Phía trên bên trái</string>
+    <string name="recents_clear_all_location_top_center">Chính giữa phía trên</string>
+    <string name="recents_clear_all_location_bottom_right">Phía dưới bên phải</string>
+    <string name="recents_clear_all_location_bottom_left">Phía dưới bên trái</string>
+    <string name="recents_clear_all_location_bottom_center">Phía dưới ở giữa</string>
+    <string name="oreo_recents_category">Đa nhiệm kiểu Oreo</string>
+    <string name="recents_show_membar_title">Thanh bộ nhớ</string>
+    <string name="recents_show_membar_summary">Hiện thanh với bộ nhớ có sẵn của thiết bị</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Kiểu đa nhiệm Android 8.1.0</string>
+    <string name="recents_stock">Mặc định</string>
+    <string name="recents_grid">Dạng lưới</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">Hiển thị cài đặt cắt bỏ</string>
+    <string name="cutout_main_summary">Họ thực sự cắt góc với cái này</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">Cắt kiểu</string>
+    <string name="display_cutout_style_normal">Bình thường</string>
+    <string name="display_cutout_style_immerse">Đắm</string>
+    <string name="display_cutout_style_hide">Ẩn</string>
+    <string name="stock_statusbar_in_hide">Chiều cao thanh trạng thái gốc</string>
+    <string name="stock_statusbar_in_hide_summary">Sử dụng chiều cao thanh trạng thái mặc định trong Ẩn</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">Tiêu đề QS</string>
+    <string name="statusbar_header_category_summary">Tùy chỉnh tiêu đề Bảng điều khiển QS</string>
+    <string name="status_bar_custom_header_title">Kích hoạt</string>
+    <string name="daylight_header_pack_title">Tiêu đề hình ảnh bộ sưu tập</string>
+    <string name="status_bar_custom_header_shadow_title">Đổ bóng ảnh trong bộ sưu tập</string>
+    <string name="status_bar_custom_header_shadow_summary">Cho khả năng nhìn thấy tốt hơn với các hình ảnh sáng</string>
+    <string name="static_header_provider_title">Ảnh tĩnh</string>
+    <string name="daylight_header_provider_title">Bộ sưu tập ảnh</string>
+    <string name="custom_header_provider_title">Nhà cung cấp</string>
+    <string name="custom_header_pick_title">Chọn tiêu đề hình ảnh</string>
+    <string name="custom_header_pick_summary">Chọn một hình ảnh địa phương hoặc từ xa</string>
+    <string name="style_enabled_summary">Tùy chỉnh hình ảnh đầu mục đang bật</string>
+    <string name="style_disabled_summary">Tùy chỉnh hình ảnh đầu mục đang TẮT</string>
+    <string name="header_provider_disabled">Tắt</string>
+    <string name="custom_header_title">Tùy chỉnh hình ảnh đầu mục</string>
+    <string name="file_header_select_title">Chọn hình ảnh địa phương</string>
+    <string name="file_header_select_summary">Chọn hình ảnh từ bộ nhớ</string>
+    <string name="file_header_provider_title">Hình ảnh duy nhất</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Ẩn thanh thông báo</string>
+    <string name="hide_lockscreen_status_bar_summary">Chạm vào thanh trạng thái để chuyển đổi chế độ hiển thị</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Liên kết âm lượng nhạc chuông &amp; thông báo</string>
 </resources>

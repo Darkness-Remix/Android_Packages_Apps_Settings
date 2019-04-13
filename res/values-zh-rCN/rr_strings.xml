@@ -253,10 +253,7 @@
     <string name="rr_toast_title">Toast 通知</string>
     <string name="rr_headsup_cat">浮动通知</string>
     <string name="rr_nav_title">导航栏</string>
-    <string name="recents_type_title">最近任务类型</string>
-    <string name="recents_stock">原生</string>
     <string name="recents_omniswitch">Omni 切换器</string>
-    <string name="recents_grid">网格</string>
     <string name="recents_slim">Slim</string>
     <string name="rr_notif_settings_title">通知</string>
     <!-- Interface -->
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">显示磁贴标题</string>
     <string name="qs_tile_title_visibility_summary">当磁贴被选中时在其下方显示标题</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">已启用</string>
-    <string name="daylight_header_pack_title">顶部图像收集</string>
-    <string name="status_bar_custom_header_shadow_title">顶部图像阴影</string>
-    <string name="status_bar_custom_header_shadow_summary">在使用明亮图像时会有更好的可见度</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">静态图像</string>
-    <string name="daylight_header_provider_title">收藏的图片</string>
-    <string name="custom_header_provider_title">顶部图像</string>
     <string name="custom_header_browse_title">浏览已安装的顶部选项</string>
     <string name="custom_header_browse_summary">选择静态模式使用的图片</string>
     <string name="custom_header_browse_summary_new">浏览所有可用的顶部图像集合</string>
-    <string name="custom_header_pick_title">选择顶部图像</string>
-    <string name="custom_header_pick_summary">选择静态模式使用的图片</string>
-    <string name="style_enabled_summary">已开启自定义顶部图像</string>
-    <string name="style_disabled_summary">已关闭自定义顶部图像</string>
-    <string name="header_provider_disabled">停用</string>
-    <string name="custom_header_title">自定义顶部图像</string>
-    <string name="file_header_select_title">选择图像</string>
-    <string name="file_header_select_summary">选择自定义图像</string>
-    <string name="file_header_provider_title">自定义图片</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">智能下拉</string>
     <string name="smart_pulldown_off">关闭</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">显示日期</string>
     <string name="recents_full_screen_date_summary">沉浸时在顶部显示日期</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">清除所有按钮</string>
-    <string name="show_clear_all_recents_button_summary">显示清除所有按钮</string>
-    <string name="recents_clear_all_location_title">清除所有位置</string>
-    <string name="recents_clear_all_location_top_right">右上方</string>
-    <string name="recents_clear_all_location_top_left">左上方</string>
-    <string name="recents_clear_all_location_top_center">顶部居中</string>
-    <string name="recents_clear_all_location_bottom_right">右下方</string>
-    <string name="recents_clear_all_location_bottom_left">左下方</string>
-    <string name="recents_clear_all_location_bottom_center">底部居中</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">全部清除</string>
     <string name="clear_recents_style">按钮样式</string>
     <string name="fab_button_color">清除全部背景色</string>
@@ -2082,4 +2053,65 @@
     <string name="doze_on_charge_title">充电时显示</string>
     <string name="doze_on_charge_summary">充电时唤醒屏幕</string>
     <!-- Rounded corners -->
+    <string name="corners_category">屏幕角</string>
+    <string name="corner_radius">圆角半径</string>
+    <string name="content_padding">圆角内容填充</string>
+    <string name="corner_fwvals">使用系统硬件取值</string>
+    <string name="corner_fwvals_summary">如果实际设备上有圆角，那么该设置将十分有用</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">最近任务样式</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">AOSP 最近任务</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">清除所有按钮</string>
+    <string name="show_clear_all_recents_button_summary">显示清除所有按钮</string>
+    <string name="recents_clear_all_location_title">清除所有位置</string>
+    <string name="recents_clear_all_location_top_right">右上方</string>
+    <string name="recents_clear_all_location_top_left">左上方</string>
+    <string name="recents_clear_all_location_top_center">顶部居中</string>
+    <string name="recents_clear_all_location_bottom_right">右下方</string>
+    <string name="recents_clear_all_location_bottom_left">左下方</string>
+    <string name="recents_clear_all_location_bottom_center">底部居中</string>
+    <string name="oreo_recents_category">Oreo 最近任务</string>
+    <string name="recents_show_membar_title">内存栏</string>
+    <string name="recents_show_membar_summary">显示设备可用运行内存栏</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Oreo 最近任务布局</string>
+    <string name="recents_stock">原生</string>
+    <string name="recents_grid">网格</string>
+    <string name="recents_go">安卓 Go</string>
+    <string name="cutout_main">显示剪切设置</string>
+    <string name="cutout_main_summary">他们真的偷工减料</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">镂空风格</string>
+    <string name="display_cutout_style_normal">正常</string>
+    <string name="display_cutout_style_immerse">沉浸式</string>
+    <string name="display_cutout_style_hide">隐藏</string>
+    <string name="stock_statusbar_in_hide">原生状态栏高度</string>
+    <string name="stock_statusbar_in_hide_summary">在隐藏中使用默认状态栏高度</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">快速设置标头</string>
+    <string name="statusbar_header_category_summary">自定义快速磁贴面板标头</string>
+    <string name="status_bar_custom_header_title">已启用</string>
+    <string name="daylight_header_pack_title">顶部图像收集</string>
+    <string name="status_bar_custom_header_shadow_title">顶部图像阴影</string>
+    <string name="status_bar_custom_header_shadow_summary">在使用明亮图像时会有更好的可见度</string>
+    <string name="static_header_provider_title">静态图像</string>
+    <string name="daylight_header_provider_title">收藏的图片</string>
+    <string name="custom_header_provider_title">顶部图像</string>
+    <string name="custom_header_pick_title">选择顶部图像</string>
+    <string name="custom_header_pick_summary">选择本地或远程图像</string>
+    <string name="style_enabled_summary">已开启自定义顶部图像</string>
+    <string name="style_disabled_summary">已关闭自定义顶部图像</string>
+    <string name="header_provider_disabled">停用</string>
+    <string name="custom_header_title">自定义顶部图像</string>
+    <string name="file_header_select_title">选择本地图像</string>
+    <string name="file_header_select_summary">从存储中选择图像</string>
+    <string name="file_header_provider_title">单个图像</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">隐藏状态栏</string>
+    <string name="hide_lockscreen_status_bar_summary">触摸状态栏以切换可见性</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">链接铃声和通知的音量</string>
 </resources>

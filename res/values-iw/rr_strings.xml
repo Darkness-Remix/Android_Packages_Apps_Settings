@@ -211,10 +211,7 @@
     <string name="rr_header_title">כותרת</string>
     <string name="rr_power_panel_title">תפריט הפעלה</string>
     <string name="rr_nav_title">ניווט</string>
-    <string name="recents_type_title">הקלדות אחרונות</string>
-    <string name="recents_stock">Stock AOSP</string>
     <string name="recents_omniswitch">Omniswitch</string>
-    <string name="recents_grid">מטריצה</string>
     <string name="recents_slim">רזה</string>
     <string name="rr_notif_settings_title">הודעות</string>
     <!-- Interface -->
@@ -313,26 +310,10 @@
     <string name="qs_tile_title_visibility_title">הצג טקסט כותרת לאריחים</string>
     <string name="qs_tile_title_visibility_summary">הצג כותרות מתחת לאריחים כאשר מסומן</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">אפשר</string>
-    <string name="daylight_header_pack_title">אוסף תמונות כותרת</string>
-    <string name="status_bar_custom_header_shadow_title">צל תמונת כותרת</string>
-    <string name="status_bar_custom_header_shadow_summary">לראות טובה יותר בתמונות בהירות</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">תמונה קבועה</string>
-    <string name="daylight_header_provider_title">אוסף תמונות</string>
-    <string name="custom_header_provider_title">ספק כותרות</string>
     <string name="custom_header_browse_title">סייר בכותרות מותקנות</string>
     <string name="custom_header_browse_summary">בחר בכל תמונה כדי להשתמש כתמונה קבועה</string>
     <string name="custom_header_browse_summary_new">סייר בכל אוספי הכותרות הזמינים</string>
-    <string name="custom_header_pick_title">בחר תמונת כותרת</string>
-    <string name="custom_header_pick_summary">בחר תמונה לשימוש במצב סטטי</string>
-    <string name="style_enabled_summary">תמונת כותרת בהתאמה אישית מופעלת</string>
-    <string name="style_disabled_summary">תמונת כותרת בהתאמה אישית מושבתת</string>
-    <string name="header_provider_disabled">מושבת</string>
-    <string name="custom_header_title">תמונת כותרת מותאמת אישית</string>
-    <string name="file_header_select_title">בחר תמונה</string>
-    <string name="file_header_select_summary">בחר תמונה מותאמת אישית</string>
-    <string name="file_header_provider_title">תמונה מותאמת אישית</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_off">כבוי</string>
     <string name="smart_pulldown_none">אין התראות</string>
@@ -473,7 +454,6 @@
     <!--Custom logos-->
     <!-- Clock and date immersive recents-->
     <!--Recents styles-->
-    <!-- Clock and date immersive recents-->
     <!-- Config style-->
     <!-- Dashboard settings-->
     <!-- Incall vibrate options -->
@@ -536,4 +516,37 @@
     <!-- Volume Steps Fragment -->
     <!-- doze on charge -->
     <!-- Rounded corners -->
+    <!-- AOSP Recents component Style -->
+    <!-- Recents panel settings -->
+    <!-- Oreo Recents Style -->
+    <string name="recents_grid">מטריצה</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_normal">רגיל</string>
+    <string name="display_cutout_style_hide">הסתרה</string>
+    <string name="stock_statusbar_in_hide">גובה שורת מצב לפי היצרן</string>
+    <string name="stock_statusbar_in_hide_summary">להשתמש בגובה שורת המצב כבררת מחדל בהסתרה</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">כותרת הגדרות מהירות</string>
+    <string name="statusbar_header_category_summary">התאמת כותרת לוח ההגדרות המהירות</string>
+    <string name="status_bar_custom_header_title">אפשר</string>
+    <string name="daylight_header_pack_title">אוסף תמונות כותרת</string>
+    <string name="status_bar_custom_header_shadow_title">צל תמונת כותרת</string>
+    <string name="status_bar_custom_header_shadow_summary">לראות טובה יותר בתמונות בהירות</string>
+    <string name="static_header_provider_title">תמונה קבועה</string>
+    <string name="daylight_header_provider_title">אוסף תמונות</string>
+    <string name="custom_header_provider_title">ספק כותרות</string>
+    <string name="custom_header_pick_title">בחר תמונת כותרת</string>
+    <string name="custom_header_pick_summary">בחירת תמונה מקומית או מרוחקת</string>
+    <string name="style_enabled_summary">תמונת כותרת בהתאמה אישית מופעלת</string>
+    <string name="style_disabled_summary">תמונת כותרת בהתאמה אישית מושבתת</string>
+    <string name="header_provider_disabled">מושבת</string>
+    <string name="custom_header_title">תמונת כותרת מותאמת אישית</string>
+    <string name="file_header_select_title">בחירת תמונה מקומית</string>
+    <string name="file_header_select_summary">בחירת תמונה מאחסון</string>
+    <string name="file_header_provider_title">תמונה בודדת</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">הסתרת שורת מצב</string>
+    <string name="hide_lockscreen_status_bar_summary">יש לגעת בשורת המצב כדי להציג/להסתיר</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">קישור עוצמות הצלצול וההתראות</string>
 </resources>

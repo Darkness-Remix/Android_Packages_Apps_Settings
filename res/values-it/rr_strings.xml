@@ -206,9 +206,9 @@
     <string name="fab_reset">Ripristina</string>
     <string name="fab_about">Informazioni su RR-OS</string>
     <string name="fab_layout">Aggiorna layout</string>
-    <string name="fab_layout_tabs">Attiva o disattiva il layout delle schede</string>
+    <string name="fab_layout_tabs">Attiva o disattiva la disposizione delle schede</string>
     <string name="fab_layout_update">Attiva o disattiva il layout classico</string>
-    <string name="fab_layout_toggle">Attiva o disattiva il layout di navigazione</string>
+    <string name="fab_layout_toggle">Attiva o disattiva la disposizione della barra di navigazione</string>
     <string name="rr_reset_message">Ripristinare tutte le configurazioni ai valori predefiniti?</string>
     <string name="rr_reset_settings">Ripristina impostazioni</string>
     <string name="rr_reset_yes">Si</string>
@@ -253,10 +253,7 @@
     <string name="rr_toast_title">Toast</string>
     <string name="rr_headsup_cat">Notifiche fluttuanti</string>
     <string name="rr_nav_title">Navigazione</string>
-    <string name="recents_type_title">Tipo di recenti</string>
-    <string name="recents_stock">AOSP Stock</string>
     <string name="recents_omniswitch">Omniswitch</string>
-    <string name="recents_grid">Griglia</string>
     <string name="recents_slim">Slim</string>
     <string name="rr_notif_settings_title">Notifiche</string>
     <!-- Interface -->
@@ -360,7 +357,7 @@
     <string name="status_bar_quick_qs_pulldown_fp_summary">Invece di scorrere due volte verso il basso per le notifiche, attiva questo per un singolo scorrimento</string>
     <!-- QuickSettings haptic feedback -->
     <string name="quick_settings_vibrate_title">Vibra al tocco</string>
-    <string name="quick_settings_vibrate_summary">Vibra al tocco dei tile QS</string>
+    <string name="quick_settings_vibrate_summary">Vibra quando i tile vengono toccati</string>
     <!-- Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Info batteria</string>
     <string name="lockscreen_battery_info_summary">Mostra il voltaggio e la temperatura della batteria sulla schermata di blocco durante la carica</string>
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">Mostra il titolo dei tile</string>
     <string name="qs_tile_title_visibility_summary">Mostra i titoli sotto ai tile quando attivi</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">Attiva</string>
-    <string name="daylight_header_pack_title">Collezione di immagini d\'intestazione</string>
-    <string name="status_bar_custom_header_shadow_title">Ombra immagine intestazione</string>
-    <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">Immagine statica</string>
-    <string name="daylight_header_provider_title">Collezione di immagini</string>
-    <string name="custom_header_provider_title">Provider intestazione</string>
     <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
     <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine per utillizzarla con la modalità statica</string>
     <string name="custom_header_browse_summary_new">Sfoglia tutte le collezioni di header disponibili</string>
-    <string name="custom_header_pick_title">Seleziona immagine d\'intestazione</string>
-    <string name="custom_header_pick_summary">Seleziona un\'immagine da utilizzare per la modalità statica</string>
-    <string name="style_enabled_summary">L\'immagine personalizzata dell\'intestazione è ON</string>
-    <string name="style_disabled_summary">L\'immagine personalizzata dell\'intestazione è OFF</string>
-    <string name="header_provider_disabled">Disattivato</string>
-    <string name="custom_header_title">Immagine d\'intestazione personalizzata</string>
-    <string name="file_header_select_title">Seleziona immagine</string>
-    <string name="file_header_select_summary">Seleziona immagine personalizzata</string>
-    <string name="file_header_provider_title">Immagine personalizzata</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Discesa intelligente</string>
     <string name="smart_pulldown_off">Spento</string>
@@ -981,7 +962,7 @@
     <string name="hardware_keys_home_key_title">Pulsante home</string>
     <string name="hardware_keys_menu_key_title">Pulsante menù</string>
     <string name="hardware_keys_assist_key_title">Pulsante cerca</string>
-    <string name="hardware_keys_appswitch_key_title">Pulsante generale</string>
+    <string name="hardware_keys_appswitch_key_title">Pulsante recenti</string>
     <string name="hardware_keys_back_key_title">Pulsante indietro</string>
     <string name="hardware_keys_double_tap_summary">Imposta azione doppio tocco</string>
     <string name="hardware_keys_single_tap_summary">Imposta azione singolo tocco</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">Mostra data</string>
     <string name="recents_full_screen_date_summary">Mostra la data in alto a schermo intero</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">Pulsante cancella tutto</string>
-    <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto</string>
-    <string name="recents_clear_all_location_title">Posizione pulsante cancella tutto</string>
-    <string name="recents_clear_all_location_top_right">In alto a destra</string>
-    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
-    <string name="recents_clear_all_location_top_center">In alto al centro</string>
-    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
-    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
-    <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">Pulsante cancella tutto</string>
     <string name="clear_recents_style">Stile del pulsante</string>
     <string name="fab_button_color">Colore sfondo cancella tutto</string>
@@ -1956,7 +1927,7 @@
     <string name="statusbar_tuner_title">Elementi barra di stato</string>
     <string name="statusbar_tuner_summary">Opzioni batteria e icone della barra di stato da disabilitare</string>
     <string name="navbar_tuner_title">Modifica la barra di navigazione</string>
-    <string name="navbar_tuner_summary">Modifica il layout e i pulsanti della barra di navigazione</string>
+    <string name="navbar_tuner_summary">Modifica la disposizione dei pulsanti e della barra di navigazione</string>
     <string name="vol_dnd_category_title">Modalità non disturbare</string>
     <string name="volbtn_down_zen_title">Premi Vol- per la modalità non disturbare</string>
     <string name="volbtn_down_zen_summary">permetti al tasto Vol- di attivare la modalità non disturbare</string>
@@ -2082,4 +2053,65 @@
     <string name="doze_on_charge_title">Mostra durante la ricarica</string>
     <string name="doze_on_charge_summary">Attiva lo schermo durante la ricarica</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Angoli dello schermo</string>
+    <string name="corner_radius">Raggio degli angoli arrotondati</string>
+    <string name="content_padding">Riempimento dell\'angolo</string>
+    <string name="corner_fwvals">Usa i valori del framework</string>
+    <string name="corner_fwvals_summary">Utile se il dispositivo ha effettivamente gli angoli arrotondati</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Stile recenti</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">Recenti AOSP</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Pulsante cancella tutto</string>
+    <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto</string>
+    <string name="recents_clear_all_location_title">Posizione pulsante cancella tutto</string>
+    <string name="recents_clear_all_location_top_right">In alto a destra</string>
+    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+    <string name="recents_clear_all_location_top_center">In alto al centro</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
+    <string name="oreo_recents_category">Recenti Oreo</string>
+    <string name="recents_show_membar_title">Barra della memoria</string>
+    <string name="recents_show_membar_summary">Mostra una barra con la memoria disponibile del dispositivo</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Disposizione dei recenti Oreo</string>
+    <string name="recents_stock">Stock</string>
+    <string name="recents_grid">Griglia</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">Visualizza le impostazioni di ritaglio</string>
+    <string name="cutout_main_summary">Hanno davvero tagliato gli angoli con questo</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">Stile ritaglio</string>
+    <string name="display_cutout_style_normal">Normale</string>
+    <string name="display_cutout_style_immerse">Immergi</string>
+    <string name="display_cutout_style_hide">Nascondi</string>
+    <string name="stock_statusbar_in_hide">Altezza della barra di stato predefinita</string>
+    <string name="stock_statusbar_in_hide_summary">Usa l\'altezza della barra di stato predefinita in nascondi</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">Intestazione impostazioni rapide</string>
+    <string name="statusbar_header_category_summary">Personalizza l\'intestazione del pannello</string>
+    <string name="status_bar_custom_header_title">Attiva</string>
+    <string name="daylight_header_pack_title">Collezione di immagini d\'intestazione</string>
+    <string name="status_bar_custom_header_shadow_title">Ombra immagine intestazione</string>
+    <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
+    <string name="static_header_provider_title">Immagine statica</string>
+    <string name="daylight_header_provider_title">Collezione di immagini</string>
+    <string name="custom_header_provider_title">Provider intestazione</string>
+    <string name="custom_header_pick_title">Seleziona immagine d\'intestazione</string>
+    <string name="custom_header_pick_summary">Seleziona un\'immagine locale o remota</string>
+    <string name="style_enabled_summary">L\'immagine personalizzata dell\'intestazione è ON</string>
+    <string name="style_disabled_summary">L\'immagine personalizzata dell\'intestazione è OFF</string>
+    <string name="header_provider_disabled">Disattivato</string>
+    <string name="custom_header_title">Immagine d\'intestazione personalizzata</string>
+    <string name="file_header_select_title">Seleziona l\'immagine locale</string>
+    <string name="file_header_select_summary">Seleziona l\'immagine dalla memoria</string>
+    <string name="file_header_provider_title">Immagine singola</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Nascondi la barra di stato</string>
+    <string name="hide_lockscreen_status_bar_summary">Tocca la barra di stato per modificare la visibilità</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Collega volume suoneria e notifiche</string>
 </resources>

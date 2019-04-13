@@ -51,13 +51,13 @@
     <string name="media_art_summary">Показывать обложку альбома на экране блокировки</string>
     <!-- Battery Styles -->
     <string name="battery_style_title">Стиль значка батареи</string>
-    <string name="battery_style_port">Портреная ориентация</string>
-    <string name="battery_style_land">Ландшафтная ориентация</string>
+    <string name="battery_style_port">Вертикальный значок</string>
+    <string name="battery_style_land">Горизонтальный значок</string>
     <string name="battery_style_circle">Круглый значок</string>
-    <string name="battery_style_dotted_circle">Пунктирный круг</string>
+    <string name="battery_style_dotted_circle">Точечный круг</string>
     <string name="battery_style_big_circle">Большой круг</string>
     <string name="battery_style_big_dotted_circle">Большой точечный круг</string>
-    <string name="battery_style_square">Квадрат</string>
+    <string name="battery_style_square">Квадратный значок</string>
     <string name="battery_style_text">Текст</string>
     <string name="battery_style_hidden">Не показывать значок</string>
     <string name="battery_style_category">Стиль батареи</string>
@@ -116,7 +116,7 @@
     <string name="rr_website_title">Сайт</string>
     <string name="rr_website_summary">Узнать больше о Resurrection Remix OS</string>
     <string name="rr_telegram_title">Telegram</string>
-    <string name="rr_telegram_summary">Чат в Телеграмме</string>
+    <string name="rr_telegram_summary">Telegram чат</string>
     <string name="rr_source_title">GitHub</string>
     <string name="rr_source_summary">Исходный код Resurrection Remix OS</string>
     <string name="rr_facebook_title">Facebook</string>
@@ -126,7 +126,7 @@
     <string name="rr_pb_title">Тема PitchBlack</string>
     <string name="rr_pb_summary">Официальная Substratum тема для ResurrectionRemix OS</string>
     <string name="rr_twitter_title">Twitter</string>
-    <string name="rr_twitter_summary">Twitter аккаунт</string>
+    <string name="rr_twitter_summary">Аккаунт в Twitter</string>
     <string name="maintainer_categorie_title">Официально поддерживаемые устройства</string>
     <string name="title_about">О прошивке</string>
     <string name="dev_categorie_title">Разработка и поддержка</string>
@@ -163,16 +163,16 @@
     <string name="features_error">Невозможно загрузить список</string>
     <string name="features_unknown">Неизвестно</string>
     <string name="features_version">1.0</string>
-    <string name="powermenu_onthego_title">На Ходу</string>
+    <string name="powermenu_onthego_title">Режим \"На ходу\"</string>
     <string name="rr_volume_title">Панель громкости</string>
     <string name="rr_power_title">Меню питания</string>
     <string name="rr_lockscreen_target_title">Ярлыки в нижних углах</string>
     <string name="power_menu_screenshot_title">Скриншот</string>
     <string name="power_menu_screenshot_summary">Удерживайте, чтобы выделить область для скриншота</string>
-    <string name="power_menu_airplane_title">Режим в самолёте</string>
-    <string name="power_menu_users_title">Пользовательский переключатель</string>
+    <string name="power_menu_airplane_title">Режим полёта</string>
+    <string name="power_menu_users_title">Переключение пользователей</string>
     <string name="power_menu_bug_report_title">Отчёт об ошибке</string>
-    <string name="power_menu_bug_report_disabled">Отчет об ошибке отключен в настройках для разработчика</string>
+    <string name="power_menu_bug_report_disabled">Отчёты об ошибках отключены в настройках для разработчиков</string>
     <string name="power_menu_lockdown_title">Блокировка</string>
     <!-- About phone screen, RR version -->
     <string name="rr_version">Версия Resurrection Remix</string>
@@ -253,10 +253,7 @@
     <string name="rr_toast_title">Всплывающее оповещение</string>
     <string name="rr_headsup_cat">Всплывающие уведомления</string>
     <string name="rr_nav_title">Навигация</string>
-    <string name="recents_type_title">Тип меню недавних приложений</string>
-    <string name="recents_stock">Заводской AOSP</string>
     <string name="recents_omniswitch">OmniSwitch</string>
-    <string name="recents_grid">Сетка</string>
     <string name="recents_slim">Slim</string>
     <string name="rr_notif_settings_title">Уведомления</string>
     <!-- Interface -->
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">Показывать названия плиток</string>
     <string name="qs_tile_title_visibility_summary">Отображать названия плиток снизу, когда выбрано</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">Включить</string>
-    <string name="daylight_header_pack_title">Набор изображений для заголовка</string>
-    <string name="status_bar_custom_header_shadow_title">Тень изображения в заголовке</string>
-    <string name="status_bar_custom_header_shadow_summary">Для лучшей видимости на светлых изображениях</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">Статическое изображение</string>
-    <string name="daylight_header_provider_title">Набор изображений</string>
-    <string name="custom_header_provider_title">Провайдер заголовка</string>
     <string name="custom_header_browse_title">Обзор установленных заголовков</string>
     <string name="custom_header_browse_summary">Нажмите на любое изображение для использования в статичном режиме</string>
     <string name="custom_header_browse_summary_new">Просмотр всех доступных наборов заголовков</string>
-    <string name="custom_header_pick_title">Выберите изображение для заголовка</string>
-    <string name="custom_header_pick_summary">Выберите изображение для статичного режима</string>
-    <string name="style_enabled_summary">Пользовательское изображение заголовка включено</string>
-    <string name="style_disabled_summary">Пользовательское изображение заголовка выключено</string>
-    <string name="header_provider_disabled">Выключено</string>
-    <string name="custom_header_title">Пользовательское изображение в заголовке</string>
-    <string name="file_header_select_title">Выбрать изображение</string>
-    <string name="file_header_select_summary">Выберите пользовательское изображение</string>
-    <string name="file_header_provider_title">Пользовательское изображение</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Умное открытие</string>
     <string name="smart_pulldown_off">Выключен</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">Показывать дату</string>
     <string name="recents_full_screen_date_summary">Показывать дату наверху при полноэкранном режиме</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">Кнопка «Очистить всё»</string>
-    <string name="show_clear_all_recents_button_summary">Показывать кнопку \"Очистить всё\"</string>
-    <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить все\"</string>
-    <string name="recents_clear_all_location_top_right">Вверху справа</string>
-    <string name="recents_clear_all_location_top_left">Вверху слева</string>
-    <string name="recents_clear_all_location_top_center">Вверху по центру</string>
-    <string name="recents_clear_all_location_bottom_right">Снизу справа</string>
-    <string name="recents_clear_all_location_bottom_left">Снизу слева</string>
-    <string name="recents_clear_all_location_bottom_center">Снизу по центру</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">Очистить все</string>
     <string name="clear_recents_style">Стиль кнопки</string>
     <string name="fab_button_color">Фон кнопки «Очистить всё»</string>
@@ -2082,4 +2053,64 @@
     <string name="doze_on_charge_title">Показывать во время зарядки</string>
     <string name="doze_on_charge_summary">Включение экрана при зарядке</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Закругление экрана</string>
+    <string name="corner_radius">Радиус скругления углов</string>
+    <string name="content_padding">Отступ углов</string>
+    <string name="corner_fwvals">Использовать значения framework\'а</string>
+    <string name="corner_fwvals_summary">Полезно, если устройство имеет скруглённые углы на дисплее</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Стиль меню недавних приложений</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">Недавние приложения в стиле AOSP</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Кнопка «Очистить всё»</string>
+    <string name="show_clear_all_recents_button_summary">Показывать кнопку \"Очистить всё\"</string>
+    <string name="recents_clear_all_location_title">Расположение кнопки \"Очистить все\"</string>
+    <string name="recents_clear_all_location_top_right">Вверху справа</string>
+    <string name="recents_clear_all_location_top_left">Вверху слева</string>
+    <string name="recents_clear_all_location_top_center">Вверху по центру</string>
+    <string name="recents_clear_all_location_bottom_right">Снизу справа</string>
+    <string name="recents_clear_all_location_bottom_left">Снизу слева</string>
+    <string name="recents_clear_all_location_bottom_center">Снизу по центру</string>
+    <string name="oreo_recents_category">Недавние пииложения в стиле Oreo </string>
+    <string name="recents_show_membar_title">Панель памяти</string>
+    <string name="recents_show_membar_summary">Показать панель с доступной памятью устройства</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Вид панели недавних приложений Oreo</string>
+    <string name="recents_stock">Сток</string>
+    <string name="recents_grid">Сетка</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">Настройки отображения выреза</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">Стиль выреза</string>
+    <string name="display_cutout_style_normal">Нормальный</string>
+    <string name="display_cutout_style_immerse">Полноэкранный режим</string>
+    <string name="display_cutout_style_hide">Скрыть</string>
+    <string name="stock_statusbar_in_hide">Стоковая высота строки состояния</string>
+    <string name="stock_statusbar_in_hide_summary">Использовать высоту строки состояния по умолчанию при скрытии</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">Заголовок быстрых настроек</string>
+    <string name="statusbar_header_category_summary">Настройка заголовка панели быстрых настроек</string>
+    <string name="status_bar_custom_header_title">Включить</string>
+    <string name="daylight_header_pack_title">Набор изображений для заголовка</string>
+    <string name="status_bar_custom_header_shadow_title">Тень изображения в заголовке</string>
+    <string name="status_bar_custom_header_shadow_summary">Для лучшей видимости на светлых изображениях</string>
+    <string name="static_header_provider_title">Статическое изображение</string>
+    <string name="daylight_header_provider_title">Набор изображений</string>
+    <string name="custom_header_provider_title">Провайдер заголовка</string>
+    <string name="custom_header_pick_title">Выберите изображение для заголовка</string>
+    <string name="custom_header_pick_summary">Выбрать изображение из памяти или из внешних источников</string>
+    <string name="style_enabled_summary">Пользовательское изображение заголовка включено</string>
+    <string name="style_disabled_summary">Пользовательское изображение заголовка выключено</string>
+    <string name="header_provider_disabled">Выключено</string>
+    <string name="custom_header_title">Пользовательское изображение в заголовке</string>
+    <string name="file_header_select_title">Выберите своё изображение</string>
+    <string name="file_header_select_summary">Выберите изображение из памяти</string>
+    <string name="file_header_provider_title">Одно изображение</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Скрывать строку состояния</string>
+    <string name="hide_lockscreen_status_bar_summary">Коснитесь строки состояния для переключения видимости</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Связать громкость рингтона и уведомлений</string>
 </resources>

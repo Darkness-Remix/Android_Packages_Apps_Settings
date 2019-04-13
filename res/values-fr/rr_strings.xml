@@ -253,10 +253,7 @@
     <string name="rr_toast_title">Notification contextuelle</string>
     <string name="rr_headsup_cat">Notifications flottantes</string>
     <string name="rr_nav_title">Navigation</string>
-    <string name="recents_type_title">Type des applications récentes</string>
-    <string name="recents_stock">AOSP Stock</string>
     <string name="recents_omniswitch">OmniSwitch</string>
-    <string name="recents_grid">Grille</string>
     <string name="recents_slim">Mince</string>
     <string name="rr_notif_settings_title">Notifications</string>
     <!-- Interface -->
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">Afficher titre des tuiles</string>
     <string name="qs_tile_title_visibility_summary">Afficher les titres des tuiles en dessous lorsqu\'ils sont cochés</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">Activé</string>
-    <string name="daylight_header_pack_title">Collection d\'images d\'en-tête</string>
-    <string name="status_bar_custom_header_shadow_title">Opacité de l\'en-tête</string>
-    <string name="status_bar_custom_header_shadow_summary">Pour une meilleure visibilité sur des images lumineuses</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">Image fixe</string>
-    <string name="daylight_header_provider_title">Collection d’images</string>
-    <string name="custom_header_provider_title">Nom dans l’en-tête</string>
     <string name="custom_header_browse_title">Parcourir les en-têtes installés</string>
     <string name="custom_header_browse_summary">Cliquer sur n\'importe quelle image pour utiliser le mode statique</string>
     <string name="custom_header_browse_summary_new">Parcourir toutes les collections d\'en-têtes disponibles</string>
-    <string name="custom_header_pick_title">Sélectionnez image d’en-tête</string>
-    <string name="custom_header_pick_summary">Sélectionnez une image pour le mode statique</string>
-    <string name="style_enabled_summary">Image d\'en-tête personnalisé est activé</string>
-    <string name="style_disabled_summary">Image d\'en-tête personnalisé est désactivé</string>
-    <string name="header_provider_disabled">Désactivé</string>
-    <string name="custom_header_title">Image d\'en-tête personnalisée</string>
-    <string name="file_header_select_title">Sélectionner image</string>
-    <string name="file_header_select_summary">Sélectionner image personnalisée</string>
-    <string name="file_header_provider_title">Image personnalisée</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Menu déroulant intelligent</string>
     <string name="smart_pulldown_off">Désactivé</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">Afficher la date</string>
     <string name="recents_full_screen_date_summary">Afficher la date en haut en mode plein écran</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">Bouton Effacer tout</string>
-    <string name="show_clear_all_recents_button_summary">Afficher le bouton effacer tout</string>
-    <string name="recents_clear_all_location_title">Position du bouton éffacer tout</string>
-    <string name="recents_clear_all_location_top_right">En haut à droite</string>
-    <string name="recents_clear_all_location_top_left">En haut à gauche</string>
-    <string name="recents_clear_all_location_top_center">En haut au centre</string>
-    <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
-    <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
-    <string name="recents_clear_all_location_bottom_center">En bas au centre</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">Tout effacer</string>
     <string name="clear_recents_style">Style de bouton</string>
     <string name="fab_button_color">Couleure de fond du boutton éffacer tout</string>
@@ -2082,9 +2053,65 @@
     <string name="doze_on_charge_title">Afficher lors de la charge</string>
     <string name="doze_on_charge_summary">Réveiller l\'écran lors du chargement</string>
     <!-- Rounded corners -->
-    <string name="corners_category">Coins</string>
+    <string name="corners_category">Coins de l\'écran</string>
     <string name="corner_radius">Rayon d\'angle arrondi</string>
     <string name="content_padding">Rembourrage du contenu des coins</string>
     <string name="corner_fwvals">Utiliser valeurs système</string>
     <string name="corner_fwvals_summary">Utile si l’appareil a effectivement des coins arrondis</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Style des applications récentes</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">AOSP récents</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Bouton Effacer tout</string>
+    <string name="show_clear_all_recents_button_summary">Afficher le bouton effacer tout</string>
+    <string name="recents_clear_all_location_title">Position du bouton éffacer tout</string>
+    <string name="recents_clear_all_location_top_right">En haut à droite</string>
+    <string name="recents_clear_all_location_top_left">En haut à gauche</string>
+    <string name="recents_clear_all_location_top_center">En haut au centre</string>
+    <string name="recents_clear_all_location_bottom_right">En bas à droite</string>
+    <string name="recents_clear_all_location_bottom_left">En bas à gauche</string>
+    <string name="recents_clear_all_location_bottom_center">En bas au centre</string>
+    <string name="oreo_recents_category">Style des applications récentes Oreo</string>
+    <string name="recents_show_membar_title">Barre de mémoire</string>
+    <string name="recents_show_membar_summary">Afficher une barre avec la mémoire disponible sur l\'appareil</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Mise en page des Applications Récentes style Oreo</string>
+    <string name="recents_stock">Stock</string>
+    <string name="recents_grid">Grille</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">Réglages de la découpe de l\'affichage</string>
+    <string name="cutout_main_summary">Ils ont vraiment fait des économies avec ça</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">Style cutout</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Immersif</string>
+    <string name="display_cutout_style_hide">Masquer</string>
+    <string name="stock_statusbar_in_hide">Hauteur de la barre d\'état par défaut</string>
+    <string name="stock_statusbar_in_hide_summary">Utiliser la hauteur par défaut de la barre de statut dans le masque</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">En-tête des réglages rapides</string>
+    <string name="statusbar_header_category_summary">Personnaliser le panneau des réglages rapides</string>
+    <string name="status_bar_custom_header_title">Activé</string>
+    <string name="daylight_header_pack_title">Collection d\'images d\'en-tête</string>
+    <string name="status_bar_custom_header_shadow_title">Opacité de l\'en-tête</string>
+    <string name="status_bar_custom_header_shadow_summary">Pour une meilleure visibilité sur des images lumineuses</string>
+    <string name="static_header_provider_title">Image fixe</string>
+    <string name="daylight_header_provider_title">Collection d’images</string>
+    <string name="custom_header_provider_title">Nom dans l’en-tête</string>
+    <string name="custom_header_pick_title">Sélectionnez image d’en-tête</string>
+    <string name="custom_header_pick_summary">Sélectionnez une image locale ou distante</string>
+    <string name="style_enabled_summary">Image d\'en-tête personnalisé est activé</string>
+    <string name="style_disabled_summary">Image d\'en-tête personnalisé est désactivé</string>
+    <string name="header_provider_disabled">Désactivé</string>
+    <string name="custom_header_title">Image d\'en-tête personnalisée</string>
+    <string name="file_header_select_title">Choisir une image locale</string>
+    <string name="file_header_select_summary">Sélectionnez l’Image dans le stoquage</string>
+    <string name="file_header_provider_title">Image unique</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Masquer barre de statut</string>
+    <string name="hide_lockscreen_status_bar_summary">Toucher la barre d\'état pour basculer la visibilité</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Lier les volumes de la sonnerie &amp; des notifications</string>
 </resources>

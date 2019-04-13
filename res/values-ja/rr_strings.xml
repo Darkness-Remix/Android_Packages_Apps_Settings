@@ -134,7 +134,7 @@
     <string name="rr_ls_gestures">ジェスチャー</string>
     <string name="rr_ls_ui">UI をロック</string>
     <string name="rr_ls_security">セキュリティ</string>
-    <string name="updater_title">アップデート</string>
+    <string name="updater_title">更新</string>
     <string name="altankrk_summary">• 共同創設者\n• 頭開発者\n• UX デザイナー\n• メンテナー</string>
     <string name="varun_summary">• 主開発者\n• UX デザイナー\n• メンテナー</string>
     <string name="andres_summary">• 開発者 \n• メンテナー</string>
@@ -201,7 +201,7 @@
     <string name="changelog_time_2_weeks">2週間前</string>
     <string name="changelog_time_3_weeks">3週間前</string>
     <!--RR Configurations-->
-    <string name="fab_updates">アップデート</string>
+    <string name="fab_updates">更新</string>
     <string name="fab_restartui">UI の再起動</string>
     <string name="fab_reset">リセット</string>
     <string name="fab_about">RR-OS について</string>
@@ -253,10 +253,7 @@
     <string name="rr_toast_title">トースト</string>
     <string name="rr_headsup_cat">Heads Up</string>
     <string name="rr_nav_title">ナビゲーション</string>
-    <string name="recents_type_title">アプリ履歴の種類</string>
-    <string name="recents_stock">標準の AOSP</string>
     <string name="recents_omniswitch">OmniSwitch</string>
-    <string name="recents_grid">グリッド</string>
     <string name="recents_slim">スリム</string>
     <string name="rr_notif_settings_title">通知</string>
     <!-- Interface -->
@@ -274,7 +271,7 @@
     <string name="network_traffic_state_title">ステータスバーに通信速度を表示</string>
     <string name="network_traffic_state_summary">ステータスバーに通信速度を表示</string>
     <string name="network_traffic_title">ネットワーク通信量</string>
-    <string name="network_traffic_autohide_threshold_title">自動的に非表示にする通信速度のしきい値 (KB/s)</string>
+    <string name="network_traffic_autohide_threshold_title">自動非表示にする通信速度しきい値 (KB/s)</string>
     <string name="show_network_traffic_state">ステータスバーの通信量モニター</string>
     <string name="show_network_traffic_unit">表示単位</string>
     <string name="show_network_traffic_frequency">更新間隔</string>
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">タイルのタイトルを表示</string>
     <string name="qs_tile_title_visibility_summary">チェックしてタイルの下にタイトルを表示する</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">有効</string>
-    <string name="daylight_header_pack_title">ヘッダー画像コレクション</string>
-    <string name="status_bar_custom_header_shadow_title">ヘッダー画像の影</string>
-    <string name="status_bar_custom_header_shadow_summary">明るい画像をより見やすくする</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">固定画像</string>
-    <string name="daylight_header_provider_title">画像コレクション</string>
-    <string name="custom_header_provider_title">ヘッダープロパイダー</string>
     <string name="custom_header_browse_title">インストール済みのヘッダーを参照</string>
     <string name="custom_header_browse_summary">固定モードで使う画像をタップして下さい</string>
     <string name="custom_header_browse_summary_new">利用可能な全てのヘッダーコレクションを参照する</string>
-    <string name="custom_header_pick_title">ヘッダー画像の選択</string>
-    <string name="custom_header_pick_summary">固定モードで使う画像を選択する</string>
-    <string name="style_enabled_summary">カスタムヘッダー画像は ON です</string>
-    <string name="style_disabled_summary">カスタムヘッダー画像は OFF です</string>
-    <string name="header_provider_disabled">無効</string>
-    <string name="custom_header_title">カスタムヘッダー画像</string>
-    <string name="file_header_select_title">画像を選択</string>
-    <string name="file_header_select_summary">カスタム画像を選択</string>
-    <string name="file_header_provider_title">カスタムの画像</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">スマートプルダウン</string>
     <string name="smart_pulldown_off">OFF</string>
@@ -529,7 +510,7 @@
     <string name="rr_dash_board_summary">RR 設定の表示のレイアウトと概要を編集する</string>
     <string name="misc_weather_settings_summary">時計アプリのウィジェット設定を編集する</string>
     <string name="system_app_remover_summary">不要なシステムアプリを削除する</string>
-    <string name="rr_updater_summary">OTA アップデートと関連リンクをチェックする</string>
+    <string name="rr_updater_summary">OTA 更新と関連リンクを確認する</string>
     <string name="rr_notif_settings_summary">通知パネルでの通知の外観を編集する</string>
     <string name="rr_fp_summary">指紋センサーの様々なオプションを編集する</string>
     <string name="rr_sound_summary">その他のサウンドを編集する</string>
@@ -795,7 +776,7 @@
     <string name="profile_applist_title">アプリ</string>
     <string name="default_settings">標準の設定</string>
     <string name="default_settings_summary">標準 AOSP のナビゲーションバー</string>
-    <string name="gesture_settings_summary">ナビゲーションに下部から上スワイプジェスチャーを使用する</string>
+    <string name="gesture_settings_summary">ナビゲーションとして下部から上スワイプジェスチャーを使用する</string>
     <string name="rr_headsup_summary">高度な Heads Up 設定</string>
     <string name="slim_recents_summary">アプリ履歴のオプションを表示</string>
     <string name="system_animation_summary">アニメーションのオプションを表示</string>
@@ -1011,7 +992,7 @@
     <string name="animation_duration_default">既定</string>
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">\@null</string>
-    <string name="screen_state_toggles_title">スリープ時アクション</string>
+    <string name="screen_state_toggles_title">アクションの中断</string>
     <string name="screen_state_toggles_enable_title">有効</string>
     <string name="screen_state_toggles_enable_summary">アクションは画面消灯時に実行され点灯すると以前の状態が復元されます</string>
     <string name="screen_state_toggles_mobile_title">モバイルネットワーク</string>
@@ -1023,7 +1004,7 @@
     <string name="screen_state_toggles_mobile_data">モバイルデータの無効化</string>
     <string name="screen_state_toggles_mobile_data_summary">画面消灯時にモバイルデータ通信を無効化する</string>
     <string name="screen_state_off_delay_title">画面消灯時のアクションの遅延時間</string>
-    <string name="screen_state_off_delay_summary">スリープ時アクションを実行するまでの待機時間 (分) を設定する</string>
+    <string name="screen_state_off_delay_summary">スリープ時のアクションを実行するまでの待機時間 (分) を設定する</string>
     <string name="screen_state_on_delay_title">画面点灯時のアクションの遅延時間</string>
     <string name="screen_state_on_delay_summary">画面点灯アクションを実行するまでの待機時間 (分) を設定する</string>
     <!-- Volume Steps -->
@@ -1239,7 +1220,7 @@
     <string name="data_disabled_icon_title">データ通信が無効のアイコンを表示する</string>
     <string name="data_disabled_icon_summary">モバイルデータが無効の場合にシグナルバーの隣に×を表示</string>
     <!-- RR Settings tabs slide effects -->
-    <string name="tabs_effect_title">Resurrection Remix のタブ遷移エフェクト</string>
+    <string name="tabs_effect_title">Resurrection Remix のタブ遷移効果</string>
     <string name="effect_default">既定</string>
     <string name="effect_accordion">アコーディオン</string>
     <string name="effect_background_to_foreground">奥から前へ</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">日付を表示する</string>
     <string name="recents_full_screen_date_summary">アプリ履歴の全画面表示時に日付を上部に表示する</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
-    <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
-    <string name="recents_clear_all_location_title">ボタンの表示位置</string>
-    <string name="recents_clear_all_location_top_right">右上</string>
-    <string name="recents_clear_all_location_top_left">左上</string>
-    <string name="recents_clear_all_location_top_center">中央上</string>
-    <string name="recents_clear_all_location_bottom_right">右下</string>
-    <string name="recents_clear_all_location_bottom_left">左下</string>
-    <string name="recents_clear_all_location_bottom_center">中央下</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">全て終了</string>
     <string name="clear_recents_style">ボタンのスタイル</string>
     <string name="fab_button_color">全て終了ボタンの背景色</string>
@@ -1968,8 +1939,8 @@
     <string name="ringtone1_title">着信音 - SIM 1</string>
     <string name="ringtone2_title">着信音 - SIM 2</string>
     <string name="use_bottom_gesture_title">ナビゲーションジェスチャー</string>
-    <string name="use_bottom_gesture_summary">ナビゲーションに下部から上スワイプジェスチャーを使用する</string>
-    <string name="gesture_settings_info">ナビゲーションバーは無効でなければなりません!\n\n利用可能なジェスチャー: \n\n戻る\n- 左右どちらかを上スワイプ\n\nホーム\n- 中央を上スワイプ\n\nアプリ履歴\n- 中央を上スワイプして維持\n\nホーム長押し\n\n- 中央を短く上スワイプして維持</string>
+    <string name="use_bottom_gesture_summary">ナビゲーションとして下部から上スワイプジェスチャーを使用する</string>
+    <string name="gesture_settings_info">ナビゲーションバーは無効でなければなりません!\n\n利用可能なジェスチャー: \n\n戻る\n- 左右どちらかを上スワイプ\n\nホーム\n- 中央を上スワイプ\n\nアプリ履歴\n- 中央を上スワイプして維持\n\nホーム長押し\n- 中央を短く上スワイプして維持</string>
     <!-- Font picker -->
     <string name="font_picker_title">フォント</string>
     <string name="font_picker_title_summary">カスタムのシステムフォントを選択する</string>
@@ -2082,4 +2053,65 @@
     <string name="doze_on_charge_title">充電時に表示</string>
     <string name="doze_on_charge_summary">充電時画面を点灯する</string>
     <!-- Rounded corners -->
+    <string name="corners_category">画面の角</string>
+    <string name="corner_radius">丸い角の半径</string>
+    <string name="content_padding">コーナーのコンテンツのパディング</string>
+    <string name="corner_fwvals">フレームワークの値を使用</string>
+    <string name="corner_fwvals_summary">実際に端末が丸い角の場合に有用です</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">アプリ履歴のスタイル</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">AOSP のアプリ履歴</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">全て終了ボタン</string>
+    <string name="show_clear_all_recents_button_summary">全て終了ボタンを表示する</string>
+    <string name="recents_clear_all_location_title">ボタンの表示位置</string>
+    <string name="recents_clear_all_location_top_right">右上</string>
+    <string name="recents_clear_all_location_top_left">左上</string>
+    <string name="recents_clear_all_location_top_center">中央上</string>
+    <string name="recents_clear_all_location_bottom_right">右下</string>
+    <string name="recents_clear_all_location_bottom_left">左下</string>
+    <string name="recents_clear_all_location_bottom_center">中央下</string>
+    <string name="oreo_recents_category">Oreo のアプリ履歴</string>
+    <string name="recents_show_membar_title">メモリ使用量バー</string>
+    <string name="recents_show_membar_summary">端末で使用可能なメモリを表示する</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Oreo アプリ履歴のレイアウト</string>
+    <string name="recents_stock">標準</string>
+    <string name="recents_grid">グリッド</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">画面切り取りの設定</string>
+    <string name="cutout_main_summary">彼らは本当にこれでコーナーを切りました</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">切り取りのスタイル</string>
+    <string name="display_cutout_style_normal">標準</string>
+    <string name="display_cutout_style_immerse">没入</string>
+    <string name="display_cutout_style_hide">非表示</string>
+    <string name="stock_statusbar_in_hide">標準のステータスバーの高さ</string>
+    <string name="stock_statusbar_in_hide_summary">非表示時は既定のステータスバーの高さを使う</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">クイック設定ヘッダー</string>
+    <string name="statusbar_header_category_summary">クイック設定ヘッダーを編集する</string>
+    <string name="status_bar_custom_header_title">有効</string>
+    <string name="daylight_header_pack_title">ヘッダー画像コレクション</string>
+    <string name="status_bar_custom_header_shadow_title">ヘッダー画像の影</string>
+    <string name="status_bar_custom_header_shadow_summary">明るい画像をより見やすくする</string>
+    <string name="static_header_provider_title">固定画像</string>
+    <string name="daylight_header_provider_title">画像コレクション</string>
+    <string name="custom_header_provider_title">ヘッダープロパイダー</string>
+    <string name="custom_header_pick_title">ヘッダー画像の選択</string>
+    <string name="custom_header_pick_summary">ローカル又はリモートの画像を選択する</string>
+    <string name="style_enabled_summary">カスタムヘッダー画像は ON です</string>
+    <string name="style_disabled_summary">カスタムヘッダー画像は OFF です</string>
+    <string name="header_provider_disabled">無効</string>
+    <string name="custom_header_title">カスタムヘッダー画像</string>
+    <string name="file_header_select_title">ローカルの画像を選択する</string>
+    <string name="file_header_select_summary">ストレージから画像を選択する</string>
+    <string name="file_header_provider_title">シングル画像</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">ステータスバーを隠す</string>
+    <string name="hide_lockscreen_status_bar_summary">ステータスバーのタップで表示を切り替える</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">着信と通知の音量をリンク</string>
 </resources>

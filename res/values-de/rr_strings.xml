@@ -253,10 +253,7 @@
     <string name="rr_toast_title">Toast</string>
     <string name="rr_headsup_cat">Heads-Up-Benachrichtigungen</string>
     <string name="rr_nav_title">Navigation</string>
-    <string name="recents_type_title">Art des Anwendungsverlaufs</string>
-    <string name="recents_stock">Stock AOSP</string>
     <string name="recents_omniswitch">OmniSwitch</string>
-    <string name="recents_grid">Raster</string>
     <string name="recents_slim">Slim</string>
     <string name="rr_notif_settings_title">Benachrichtigungen</string>
     <!-- Interface -->
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">Kachel-Titel</string>
     <string name="qs_tile_title_visibility_summary">Titel unter den Kacheln anzeigen</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">Benutzerdefiniertes Kopfzeilenbild</string>
-    <string name="daylight_header_pack_title">Header-Bildersammlung</string>
-    <string name="status_bar_custom_header_shadow_title">Hintergrundbild-Schatten</string>
-    <string name="status_bar_custom_header_shadow_summary">Für bessere Sichtbarkeit auf hellen Hintergründen</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">Statisches Bild</string>
-    <string name="daylight_header_provider_title">Bildersammlung</string>
-    <string name="custom_header_provider_title">Benachrichtigungskopfzeilen Anbieter</string>
     <string name="custom_header_browse_title">Installierte Header durchsuchen</string>
     <string name="custom_header_browse_summary">Auf ein Bild drücken, um es als statisches Bild zu nutzen</string>
     <string name="custom_header_browse_summary_new">Alle verfügbaren Header-Pakete durchsuchen</string>
-    <string name="custom_header_pick_title">Hintergrundbild für Header auswählen</string>
-    <string name="custom_header_pick_summary">Bild für statischen Modus wählen</string>
-    <string name="style_enabled_summary">Benutzerdefiniertes Hintergrundbild für Header ist AN</string>
-    <string name="style_disabled_summary">Benutzerdefiniertes Hintergrundbild für Header ist AUS</string>
-    <string name="header_provider_disabled">Deaktiviert</string>
-    <string name="custom_header_title">Benutzerdefiniertes Hintergrundbild für Header</string>
-    <string name="file_header_select_title">Bildauswahl</string>
-    <string name="file_header_select_summary">Benutzerdefiniertes Bild auswählen</string>
-    <string name="file_header_provider_title">Benutzerdefiniertes Bild</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Intelligentes Herunterziehen</string>
     <string name="smart_pulldown_off">Aus</string>
@@ -493,11 +474,11 @@
     <string name="sb_custom_logos_summary">Aktivieren oder deaktivieren der Symbole in der Statusleiste. Anpassen ihrer Inhalte und Position</string>
     <string name="rr_battery_summary">Akku Elemente, sowie die Akkuanzeige in der Statusleiste anpassen</string>
     <string name="rr_sb_icons_summary">Aktivieren oder Deaktivieren der Symbole Ihrer Wahl in der Statusleiste</string>
-    <string name="ticker_screen_summary">Benachrichtigungstickerstil in Statusleiste anzeigen</string>
+    <string name="ticker_screen_summary">Benachrichtigungstickerstil in der Statusleiste anzeigen</string>
     <string name="status_bar_temperature_summary">Aktiviere oder deaktiviere die Temperatur in der Statusbar und passe den Stil an </string>
     <string name="network_traffic_summary">Datenverkehr und dessen Stil, Schwellenwert und Anzeigewerte in der Statusleiste an- oder ausschalten</string>
     <string name="carrier_summary">Aktiviere oder deaktiviere die Anbieter-Anzeige in der Statusleiste und passe deren Aussehen an </string>
-    <string name="rr_sb_gestures_summary">Aktiviere oder Deaktiviere die Gesten auf der Statusleiste</string>
+    <string name="rr_sb_gestures_summary">Aktiviere oder deaktiviere die Gesten auf der Statusleiste</string>
     <string name="breathing_notifications_summary">Pulsierender Effekt für Benachrichtigungen wie SMS, verpasste Anrufe und Voice Mails</string>
     <string name="rr_trans_summary">Verschiedener Elemente in der Benachrichtigungsleiste anpassen, wie z. B. Transparenz und Kontur</string>
     <string name="rr_volume_summary">Verschiedene Elemente im Lautstärkedialog anpassen, wie z. B. Transparenz und Kontur</string>
@@ -508,12 +489,12 @@
     <string name="rr_qs_animation_summary">Animationen beim Antippen der Schnelleinstellungen aktivieren/deaktivieren und anpassen</string>
     <string name="rr_qs_pulldown_summary">Panel Pulldown-Einstellungen anpassen</string>
     <string name="qs_tile_layout_summary">Darstellung der Schnelleinstellungen anpassen</string>
-    <string name="qs_advanced_summary">Diverse Schnelleinstellungs anpassungen</string>
+    <string name="qs_advanced_summary">Diverse Schnelleinstellungs Anpassungen</string>
     <string name="rr_ls_gesture_summary">Verschiedene Gesten für den Sperrbildschirm auswählen</string>
     <string name="rr_ls_ui_summary">Verschiedene Elemente des Sperrbildschirms ein- und ausschalten</string>
     <string name="lockscreen_targets_summary">Passe die Verknüpfungen unten links und unten rechts auf dem Sperrbildschirm deinen Wünsche an</string>
     <string name="lockscreen_weather_summary">Passe die Darstellung des Wetters im Sperrbildschirm an</string>
-    <string name="sb_weather_summary">Wetter-Elemente der Statusbar anpassen</string>
+    <string name="sb_weather_summary">Wetter-Elemente in der Statusleiste anpassen</string>
     <string name="rr_ls_security_summary">Aktiviere oder deaktiviere diverse Sicherheitsfeatures für den Sperrbildschirm</string>
     <string name="gesture_anywhere_summary">Zeichne eine Geste, um eine bevorzugte Aktivität zu starten</string>
     <string name="app_sidebar_summary">Nutze eine Seitenleiste, mit der du Apps und Aktivitäten schnell und einfach starten kannst</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">Datum anzeigen</string>
     <string name="recents_full_screen_date_summary">Zeigt das Datum im Vollbild-Modus oben an</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">Alles schließen</string>
-    <string name="show_clear_all_recents_button_summary">\"Alle schließen\"-Button im Anwendungsverlauf anzeigen</string>
-    <string name="recents_clear_all_location_title">Position des \"Alle schließen\"-Buttons im Anwendungsverlauf</string>
-    <string name="recents_clear_all_location_top_right">Oben rechts</string>
-    <string name="recents_clear_all_location_top_left">Oben links</string>
-    <string name="recents_clear_all_location_top_center">Oben mitte</string>
-    <string name="recents_clear_all_location_bottom_right">Unten rechts</string>
-    <string name="recents_clear_all_location_bottom_left">Unten links</string>
-    <string name="recents_clear_all_location_bottom_center">Unten mitte</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">Alle Schließen</string>
     <string name="clear_recents_style">Tasten-Stil</string>
     <string name="fab_button_color">Hintergrundfarbe der \"Alle Schließen\" - Taste</string>
@@ -1736,7 +1707,7 @@
     <!-- Hide Apps from Recents -->
     <string name="hide_apps_from_recents_title">Versteckte Apps</string>
     <string name="hide_from_recents_add_app">App hinzufügen</string>
-    <string name="hide_apps_from_recents_summary">Auswählen, welche Apps nicht im Anwendungsverlauf angezeigt werden</string>
+    <string name="hide_apps_from_recents_summary">Auswählen, welche Apps im Anwendungsverlauf versteckt werden sollen</string>
     <!-- Clock & date settings -->
     <string name="status_bar_clock_title">Uhr &amp; Datum</string>
     <string name="status_bar_clock">Uhr &amp; Datum</string>
@@ -1857,7 +1828,7 @@
     <!-- Seekbar default text -->
     <string name="custom_seekbar_default_text">Standard</string>
     <!-- Notification guts kill app button -->
-    <string name="notification_guts_kill_app_button_title">\"Alle beenden\" - Taste</string>
+    <string name="notification_guts_kill_app_button_title">\"App beenden\" - Taste</string>
     <string name="notification_guts_kill_app_button_summary">Eine \"App beenden\"-Taste anzeigen, wenn eine Benachrichtigung lange gedrückt wird</string>
     <!-- Smart Pixels -->
     <string name="smart_pixels_warning_text">Smart Pixel ist eine Energiesparfunktion. Je nachdem, wie viele Pixel Sie ausschalten möchten, können Sie eine Verbesserung der Akkulaufzeit feststellen.</string>
@@ -1954,7 +1925,7 @@
     <string name="backlight_summary_enabled">Aktiviert</string>
     <!--SystemUI Tuner -->
     <string name="statusbar_tuner_title">Statusleisten Symbole</string>
-    <string name="statusbar_tuner_summary">Zu deaktivierende Akku-Optionen und Statusleisten-Symbole</string>
+    <string name="statusbar_tuner_summary">Zu deaktivierende Batterie-Optionen und Statusleisten-Symbole</string>
     <string name="navbar_tuner_title">Navigationsleiste bearbeiten</string>
     <string name="navbar_tuner_summary">Tasten und Layout der Navigationsleiste anpassen</string>
     <string name="vol_dnd_category_title">\"Nicht stören\"-Modus</string>
@@ -2082,4 +2053,65 @@
     <string name="doze_on_charge_title">Beim Laden anzeigen</string>
     <string name="doze_on_charge_summary">Bildschirm beim Laden aufwecken (AOD)</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Bildschirm Ecken</string>
+    <string name="corner_radius">Radius der abgerundeten Ecken</string>
+    <string name="content_padding">Abstand der Statussymbole zu den Ecken</string>
+    <string name="corner_fwvals">Benutze Framework Werte</string>
+    <string name="corner_fwvals_summary">Nützlich, wenn das Gerät abgerundete Ecken hat</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Stil des Anwendungsverlaufs</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">AOSP-Anwendungsverlauf</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Alles schließen</string>
+    <string name="show_clear_all_recents_button_summary">\"Alle schließen\"-Button im Anwendungsverlauf anzeigen</string>
+    <string name="recents_clear_all_location_title">Position des \"Alle schließen\"-Buttons im Anwendungsverlauf</string>
+    <string name="recents_clear_all_location_top_right">Oben rechts</string>
+    <string name="recents_clear_all_location_top_left">Oben links</string>
+    <string name="recents_clear_all_location_top_center">Oben mitte</string>
+    <string name="recents_clear_all_location_bottom_right">Unten rechts</string>
+    <string name="recents_clear_all_location_bottom_left">Unten links</string>
+    <string name="recents_clear_all_location_bottom_center">Unten mitte</string>
+    <string name="oreo_recents_category">Oreo Anwendungsverlauf</string>
+    <string name="recents_show_membar_title">RAM-Leiste</string>
+    <string name="recents_show_membar_summary">Anzeige des verfügbaren Arbeitsspeichers als Leiste</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Layout des Oreo Anwendungsverlaufs</string>
+    <string name="recents_stock">Standard</string>
+    <string name="recents_grid">Raster</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">Display Ausschnitt Einstellungen</string>
+    <string name="cutout_main_summary">Sie schneiden wirklich Kurven mit diesem</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">Ausschnitt Stil</string>
+    <string name="display_cutout_style_normal">Standard</string>
+    <string name="display_cutout_style_immerse">eintauchen</string>
+    <string name="display_cutout_style_hide">Verstecken</string>
+    <string name="stock_statusbar_in_hide">Standard Statusbar Größe</string>
+    <string name="stock_statusbar_in_hide_summary">Nutze die Standard Statusbar Größe beim \"Verstecken\"</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">QS Kopfzeile</string>
+    <string name="statusbar_header_category_summary">QS Kopfzeile anpassen</string>
+    <string name="status_bar_custom_header_title">Benutzerdefiniertes Kopfzeilenbild</string>
+    <string name="daylight_header_pack_title">Header-Bildersammlung</string>
+    <string name="status_bar_custom_header_shadow_title">Hintergrundbild-Schatten</string>
+    <string name="status_bar_custom_header_shadow_summary">Für bessere Sichtbarkeit auf hellen Hintergründen</string>
+    <string name="static_header_provider_title">Statisches Bild</string>
+    <string name="daylight_header_provider_title">Bildersammlung</string>
+    <string name="custom_header_provider_title">Benachrichtigungskopfzeilen Anbieter</string>
+    <string name="custom_header_pick_title">Hintergrundbild für Header auswählen</string>
+    <string name="custom_header_pick_summary">Wähle ein lokales oder remote Bild</string>
+    <string name="style_enabled_summary">Benutzerdefiniertes Hintergrundbild für Header ist AN</string>
+    <string name="style_disabled_summary">Benutzerdefiniertes Hintergrundbild für Header ist AUS</string>
+    <string name="header_provider_disabled">Deaktiviert</string>
+    <string name="custom_header_title">Benutzerdefiniertes Hintergrundbild für Header</string>
+    <string name="file_header_select_title">Lokales Bild auswählen</string>
+    <string name="file_header_select_summary">Wählen Sie ein Bild aus dem internen Speicher</string>
+    <string name="file_header_provider_title">Einzel Bild</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Statusleiste ausblenden</string>
+    <string name="hide_lockscreen_status_bar_summary">Statusleiste berühren, um die Sichtbarkeit zu wechseln</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Klingelton- &amp; Benachrichtigungslautstärke verbinden</string>
 </resources>

@@ -253,10 +253,7 @@
     <string name="rr_toast_title">Toast</string>
     <string name="rr_headsup_cat">Plovoucí oznámení</string>
     <string name="rr_nav_title">Navigace</string>
-    <string name="recents_type_title">Typ nedávných aplikací</string>
-    <string name="recents_stock">Stock AOSP</string>
     <string name="recents_omniswitch">Omniswitch</string>
-    <string name="recents_grid">Mřížka</string>
     <string name="recents_slim">Slim</string>
     <string name="rr_notif_settings_title">Oznámení</string>
     <!-- Interface -->
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">Zobrazit názvy dlaždic</string>
     <string name="qs_tile_title_visibility_summary">Pokud je zaškrtnuto, zobrazí se popisky pod dlaždicemi</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">Povolit</string>
-    <string name="daylight_header_pack_title">Sbírka obrázků záhlaví</string>
-    <string name="status_bar_custom_header_shadow_title">Stín obrázků záhlaví</string>
-    <string name="status_bar_custom_header_shadow_summary">Pro lepší viditelnost na jasném pozadí</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">Statický obrázek</string>
-    <string name="daylight_header_provider_title">Sbírka obrázků</string>
-    <string name="custom_header_provider_title">Poskytovatel záhlaví</string>
     <string name="custom_header_browse_title">Procházet nainstalované záhlaví</string>
     <string name="custom_header_browse_summary">Klikněte na libovolný obrázek pro použití statického režimu</string>
     <string name="custom_header_browse_summary_new">Procházet všechny dostupné sbírky záhlaví</string>
-    <string name="custom_header_pick_title">Vybrat obrázek záhlaví</string>
-    <string name="custom_header_pick_summary">Vyberte obrázek, který chcete použít pro statický režim</string>
-    <string name="style_enabled_summary">Vlastní obrázek záhlaví je zapnutý</string>
-    <string name="style_disabled_summary">Vlastní obrázek záhlaví je vypnutý</string>
-    <string name="header_provider_disabled">Zakázáno</string>
-    <string name="custom_header_title">Vlastní obrázek záhlaví</string>
-    <string name="file_header_select_title">Vybrat obrázek</string>
-    <string name="file_header_select_summary">Vybrat vlastní obrázek</string>
-    <string name="file_header_provider_title">Vlastní obrázek</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Chytré rozbalení lišty</string>
     <string name="smart_pulldown_off">Vyp.</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">Zobrazit datum</string>
     <string name="recents_full_screen_date_summary">Zobrazí datum v horní části na celou obrazovku</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
-    <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko \"Vyčistit vše\"</string>
-    <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
-    <string name="recents_clear_all_location_top_right">Nahoře vpravo</string>
-    <string name="recents_clear_all_location_top_left">Nahoře vlevo</string>
-    <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
-    <string name="recents_clear_all_location_bottom_right">Dole vpravo</string>
-    <string name="recents_clear_all_location_bottom_left">Dole vlevo</string>
-    <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">Vyčistit vše</string>
     <string name="clear_recents_style">Styl tlačítka</string>
     <string name="fab_button_color">Barva pozadí tlačítka \"Vyčistit vše\"</string>
@@ -2082,9 +2053,65 @@
     <string name="doze_on_charge_title">Zobrazit při nabíjení</string>
     <string name="doze_on_charge_summary">Probudit obrazovku při nabíjení</string>
     <!-- Rounded corners -->
-    <string name="corners_category">Rohy</string>
+    <string name="corners_category">Rohy obrazovky</string>
     <string name="corner_radius">Poloměr zaoblených rohů</string>
     <string name="content_padding">Vnitřní oblast rohů</string>
     <string name="corner_fwvals">Použít hodnoty frameworku</string>
     <string name="corner_fwvals_summary">Užitečné, pokud má zařízení skutečně zaoblené rohy</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Styl nedávných aplikací</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">Nedávné aplikace AOSP</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Tlačítko \"Vyčistit vše\"</string>
+    <string name="show_clear_all_recents_button_summary">Zobrazit tlačítko \"Vyčistit vše\"</string>
+    <string name="recents_clear_all_location_title">Pozice tlačítka \"Vyčistit vše\"</string>
+    <string name="recents_clear_all_location_top_right">Nahoře vpravo</string>
+    <string name="recents_clear_all_location_top_left">Nahoře vlevo</string>
+    <string name="recents_clear_all_location_top_center">Nahoře uprostřed</string>
+    <string name="recents_clear_all_location_bottom_right">Dole vpravo</string>
+    <string name="recents_clear_all_location_bottom_left">Dole vlevo</string>
+    <string name="recents_clear_all_location_bottom_center">Dole uprostřed</string>
+    <string name="oreo_recents_category">Nedávné aplikace Oreo</string>
+    <string name="recents_show_membar_title">Ukazatel paměti</string>
+    <string name="recents_show_membar_summary">Zobrazovat lištu s dostupnou pamětí zařízení</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Rozvržení nedávných Oreo</string>
+    <string name="recents_stock">Stock</string>
+    <string name="recents_grid">Mřížka</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">Nastavení zobrazení výřezu</string>
+    <string name="cutout_main_summary">S tímhle opravdu zmenšili rohy</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">Styl výřezu</string>
+    <string name="display_cutout_style_normal">Normální</string>
+    <string name="display_cutout_style_immerse">Vnořený</string>
+    <string name="display_cutout_style_hide">Skrytý</string>
+    <string name="stock_statusbar_in_hide">Výchozí výška stavové lišty</string>
+    <string name="stock_statusbar_in_hide_summary">Použít výchozí výšku stavové lišty při skrytí</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">Záhlaví QS</string>
+    <string name="statusbar_header_category_summary">Přizpůsobit záhlaví panelu QS</string>
+    <string name="status_bar_custom_header_title">Povolit</string>
+    <string name="daylight_header_pack_title">Sbírka obrázků záhlaví</string>
+    <string name="status_bar_custom_header_shadow_title">Stín obrázků záhlaví</string>
+    <string name="status_bar_custom_header_shadow_summary">Pro lepší viditelnost na jasném pozadí</string>
+    <string name="static_header_provider_title">Statický obrázek</string>
+    <string name="daylight_header_provider_title">Sbírka obrázků</string>
+    <string name="custom_header_provider_title">Poskytovatel záhlaví</string>
+    <string name="custom_header_pick_title">Vybrat obrázek záhlaví</string>
+    <string name="custom_header_pick_summary">Vyberte místní nebo vzdálený obrázek</string>
+    <string name="style_enabled_summary">Vlastní obrázek záhlaví je zapnutý</string>
+    <string name="style_disabled_summary">Vlastní obrázek záhlaví je vypnutý</string>
+    <string name="header_provider_disabled">Zakázáno</string>
+    <string name="custom_header_title">Vlastní obrázek záhlaví</string>
+    <string name="file_header_select_title">Vyberte místní obrázek</string>
+    <string name="file_header_select_summary">Vyberte obrázek z úložiště</string>
+    <string name="file_header_provider_title">Jeden obrázek</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Skrýt stavovou lištu</string>
+    <string name="hide_lockscreen_status_bar_summary">Klikněte na stavovou lištu pro přepínání viditelnosti</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Spojit hlasitost vyzvánění &amp; oznámení</string>
 </resources>

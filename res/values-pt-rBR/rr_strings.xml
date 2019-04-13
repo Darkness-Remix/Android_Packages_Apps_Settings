@@ -25,7 +25,7 @@
     <string name="dlg_reset_android">Padrão</string>
     <string name="default_string">Padrão</string>
     <string name="add">Adicionar</string>
-    <string name="enabled">Habilitado</string>
+    <string name="enabled">Ativado</string>
     <string name="choose_app">Selecionar aplicativo</string>
     <string name="help">Ajuda</string>
     <string name="reset_message">Redefinir todas as entradas para o padrão?</string>
@@ -253,10 +253,7 @@
     <string name="rr_toast_title">Avisos</string>
     <string name="rr_headsup_cat">HeadsUP</string>
     <string name="rr_nav_title">Navegação</string>
-    <string name="recents_type_title">Layout dos recentes</string>
-    <string name="recents_stock">Padrão AOSP</string>
     <string name="recents_omniswitch">Omniswitch</string>
-    <string name="recents_grid">Grade</string>
     <string name="recents_slim">Slim</string>
     <string name="rr_notif_settings_title">Notificações</string>
     <!-- Interface -->
@@ -387,26 +384,10 @@
     <string name="qs_tile_title_visibility_title">Exibir o título do bloco</string>
     <string name="qs_tile_title_visibility_summary">Exibir o título do ícone abaixo do ícone</string>
     <!-- QS Headers -->
-    <string name="status_bar_custom_header_title">Habilitar</string>
-    <string name="daylight_header_pack_title">Coleção de imagens do cabeçalho</string>
-    <string name="status_bar_custom_header_shadow_title">Sombra de imagem de cabeçalho</string>
-    <string name="status_bar_custom_header_shadow_summary">Para melhor visualização em imagens brilhantes</string>
     <string name="unit_percent">\u0025</string>
-    <string name="static_header_provider_title">Imagem estática</string>
-    <string name="daylight_header_provider_title">Coleção de imagens</string>
-    <string name="custom_header_provider_title">Fornecedor de cabeçalho</string>
     <string name="custom_header_browse_title">Procurar cabeçalhos instalados</string>
     <string name="custom_header_browse_summary">Clique em qualquer imagem para usar no modo estático</string>
     <string name="custom_header_browse_summary_new">Navegue em todas as coleções de cabeçalho disponíveis</string>
-    <string name="custom_header_pick_title">Selecione a imagem do cabeçalho</string>
-    <string name="custom_header_pick_summary">Selecione uma imagem para usar no modo estático</string>
-    <string name="style_enabled_summary">Imagem de cabeçalho personalizado está ativo</string>
-    <string name="style_disabled_summary">Imagem de cabeçalho personalizado está desativado</string>
-    <string name="header_provider_disabled">Desativados</string>
-    <string name="custom_header_title">Imagem de cabeçalho personalizado</string>
-    <string name="file_header_select_title">Selecionar Imagem</string>
-    <string name="file_header_select_summary">Escolher imagem personalizada</string>
-    <string name="file_header_provider_title">Imagem personalizada</string>
     <!-- Smart pulldown-->
     <string name="smart_pulldown_title">Abertura inteligente</string>
     <string name="smart_pulldown_off">Desativado</string>
@@ -1599,16 +1580,6 @@
     <string name="recents_full_screen_date_title">Mostrar data</string>
     <string name="recents_full_screen_date_summary">Mostra a data no topo, enquanto em tela cheia</string>
     <!--Recents styles-->
-    <string name="show_clear_all_recents_button_title">Botão de Limpar tudo</string>
-    <string name="show_clear_all_recents_button_summary">Mostrar limpar tudo</string>
-    <string name="recents_clear_all_location_title">Localização do Botão \"Limpar Tudo\"</string>
-    <string name="recents_clear_all_location_top_right">Superior Direito</string>
-    <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
-    <string name="recents_clear_all_location_top_center">Superior central</string>
-    <string name="recents_clear_all_location_bottom_right">Canto inferior direito</string>
-    <string name="recents_clear_all_location_bottom_left">Inferior Esquerdo</string>
-    <string name="recents_clear_all_location_bottom_center">Inferior central</string>
-    <!-- Clock and date immersive recents-->
     <string name="recents_clear_all_title">Limpar Tudo</string>
     <string name="clear_recents_style">Estilo de botão</string>
     <string name="fab_button_color">Cor de fundo do ícone limpar tudo</string>
@@ -2022,12 +1993,12 @@
     <string name="flashlight_on_call_not_dnd">Apenas no modo de toque</string>
     <string name="flashlight_on_call_dnd">Apenas no modo Não Pertube</string>
     <string name="flashlight_on_call_always">Sempre</string>
-    <string name="lockscreen_item_title">Bloquear itens da tela</string>
-    <string name="lockscreen_weather_title">Mostrar opções de tempo</string>
+    <string name="lockscreen_item_title">Elementos na tela de bloqueio</string>
+    <string name="lockscreen_weather_title">Mostrar opções de clima</string>
     <string name="lockscreen_items_aod_info_title">Esta configuração de visibilidade também se aplica à exibição ambiente</string>
     <string name="weather_icon_pack_info_title">O pacote de ícones de condições é usado em configurações rápidas e na tela de bloqueio</string>
     <string name="lockscreen_category_title">Tela de bloqueio</string>
-    <string name="lock_weather_title">Bloquear o tempo da tela</string>
+    <string name="lock_weather_title">Clima na tela de bloqueio</string>
     <!-- Wakelock blocker -->
     <string name="wakelock_blocker_title">Bloqueador de Wakelock</string>
     <string name="wakelock_blocker_summary">Bloquear wakelocks do sistema</string>
@@ -2082,4 +2053,65 @@
     <string name="doze_on_charge_title">Mostrar enquanto carrega</string>
     <string name="doze_on_charge_summary">Acordar tela ao carregar</string>
     <!-- Rounded corners -->
+    <string name="corners_category">Cantos da tela</string>
+    <string name="corner_radius">Raio dos cantos arredondados</string>
+    <string name="content_padding">Espaçamento dos cantos</string>
+    <string name="corner_fwvals">Usar valores do framework</string>
+    <string name="corner_fwvals_summary">Útil se o dispositivo atualmente tiver cantos arredondados</string>
+    <!-- AOSP Recents component Style -->
+    <string name="recents_component_type_title">Estilo da aba de apps recentes</string>
+    <string name="recents_pie">Pie</string>
+    <string name="recents_oreo">Oreo</string>
+    <string name="aosp_recents_category">AOSP recentes</string>
+    <!-- Recents panel settings -->
+    <string name="show_clear_all_recents_button_title">Botão de Limpar tudo</string>
+    <string name="show_clear_all_recents_button_summary">Mostrar limpar tudo</string>
+    <string name="recents_clear_all_location_title">Localização do Botão \"Limpar Tudo\"</string>
+    <string name="recents_clear_all_location_top_right">Superior Direito</string>
+    <string name="recents_clear_all_location_top_left">Superior esquerdo</string>
+    <string name="recents_clear_all_location_top_center">Superior central</string>
+    <string name="recents_clear_all_location_bottom_right">Canto inferior direito</string>
+    <string name="recents_clear_all_location_bottom_left">Inferior Esquerdo</string>
+    <string name="recents_clear_all_location_bottom_center">Inferior central</string>
+    <string name="oreo_recents_category">Oreo recentes</string>
+    <string name="recents_show_membar_title">Barra de memória</string>
+    <string name="recents_show_membar_summary">Mostrar uma barra com a memória RAM disponível do dispositivo</string>
+    <!-- Oreo Recents Style -->
+    <string name="recents_type_title">Layout de apps recentes Oreo</string>
+    <string name="recents_stock">Stock</string>
+    <string name="recents_grid">Grade</string>
+    <string name="recents_go">Android Go</string>
+    <string name="cutout_main">Configurações de recorte da tela</string>
+    <string name="cutout_main_summary">Isto realmente recorta os cantos</string>
+    <!-- Display cutout options -->
+    <string name="display_cutout_style_title">Estilo de recorte</string>
+    <string name="display_cutout_style_normal">Normal</string>
+    <string name="display_cutout_style_immerse">Imersivo</string>
+    <string name="display_cutout_style_hide">Ocultar</string>
+    <string name="stock_statusbar_in_hide">Altura da barra de status padrão</string>
+    <string name="stock_statusbar_in_hide_summary">Usar a altura padrão da barra de estado ao ocultar</string>
+    <!-- Status Bar Header -->
+    <string name="statusbar_header_category_title">Cabeçalho QS</string>
+    <string name="statusbar_header_category_summary">Personalizar painel de configurações rápidas</string>
+    <string name="status_bar_custom_header_title">Habilitar</string>
+    <string name="daylight_header_pack_title">Coleção de imagens do cabeçalho</string>
+    <string name="status_bar_custom_header_shadow_title">Sombra de imagem de cabeçalho</string>
+    <string name="status_bar_custom_header_shadow_summary">Para melhor visualização em imagens brilhantes</string>
+    <string name="static_header_provider_title">Imagem estática</string>
+    <string name="daylight_header_provider_title">Coleção de imagens</string>
+    <string name="custom_header_provider_title">Fornecedor de cabeçalho</string>
+    <string name="custom_header_pick_title">Selecione a imagem do cabeçalho</string>
+    <string name="custom_header_pick_summary">Selecionar uma imagem local ou remota</string>
+    <string name="style_enabled_summary">Imagem de cabeçalho personalizado está ativo</string>
+    <string name="style_disabled_summary">Imagem de cabeçalho personalizado está desativado</string>
+    <string name="header_provider_disabled">Desativados</string>
+    <string name="custom_header_title">Imagem de cabeçalho personalizado</string>
+    <string name="file_header_select_title">Selecione uma imagem local</string>
+    <string name="file_header_select_summary">Selecione uma imagem do armazenamento</string>
+    <string name="file_header_provider_title">Imagem única</string>
+    <!-- Hide On Lockscreen -->
+    <string name="hide_lockscreen_status_bar_title">Ocultar a barra de status</string>
+    <string name="hide_lockscreen_status_bar_summary">Toque na barra de status para alternar a visibilidade</string>
+    <!-- Volume link notification -->
+    <string name="volume_link_notification_title">Associar volumes de toque e notificação</string>
 </resources>
